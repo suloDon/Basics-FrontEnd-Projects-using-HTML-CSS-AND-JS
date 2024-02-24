@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.topic{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.topic p{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Permanent Marker" , cursive; 
+}
+
+.main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 0 0 0 3px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 80px;
+    text-align: center; 
+    justify-content: center;
+    font-family: "Permanent Marker" , cursive;
+    padding-top: 10px; 
+    transition: background-color 0.6s;
+}
+
+.cell:hover{
+    background-color: rgb(135, 130, 130);
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+}
+
+#no{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Permanent Marker" , cursive;
+}
+
+.re{
+    display: flex;
+    justify-content: center;
+}
+
+#But{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Permanent Marker" , cursive;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white; 
+    transition: opacity 0.5s;
+    font-weight: 600;
+}
+
+#But:hover{
+    opacity: 0.7;
+}

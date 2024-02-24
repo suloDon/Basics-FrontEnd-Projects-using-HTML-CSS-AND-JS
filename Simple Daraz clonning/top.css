@@ -1,0 +1,174 @@
+.topGod{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: orangered;
+    z-index: 100;
+}
+    
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    top: 5px;
+    flex: 3;
+}   
+
+.firstSide{
+    display: flex;
+    column-gap: 20px;
+}
+
+#x{
+    color: white;
+    padding: 10px;
+
+}
+.secondScide{
+    display: flex;
+    padding-right: 100px;
+    
+}
+
+.icn{
+    width: 25px;
+}
+.mix{
+    display: flex;
+    position: relative;
+    max-width: 200px;
+    height: 25px;
+    column-gap: 5px;
+    background-color: rgb(178, 55, 10);
+    padding: 5px;
+    margin-right: 60px;
+    border-radius: 10px;
+
+    
+}
+
+#y{
+    color: white;
+    margin-top: 5px;
+}
+
+.icon_{
+    width: 120px;
+}
+
+.down_{
+    display: flex;
+    margin: 10px;
+
+}
+
+.f_row{
+    display: flex;
+    column-gap: 30px;
+  
+}
+
+.yy select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 90px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.mid{
+    display:flex;
+    position: relative;
+    
+}
+
+.search{
+    margin-top: 10px;
+    width: 700px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: -10px;
+    border-color: transparent;
+}
+
+.search::placeholder{
+    padding-left: 10px;
+    color: rgb(199, 187, 187);
+    font-weight: 500;
+}
+
+.src{
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    
+}
+
+.src button{
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: #ffe1d2;
+}
+
+.searchX{
+    width: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 2px;
+    
+}
+
+.fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 80px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top:     15px;
+    color: white;
+    font-weight: 600;
+}
+
+.im{
+    width: 20px;
+}
+.lss{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+#z{
+    color: white;
+    font-weight: 500;
+}
+.lsh{
+    margin-left: -30px;
+    margin-top: 3px;
+}
+
+.imm{
+    width: 25px;
+}
+
+.fl select{
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    margin-left: -15px;
+}
+
+.crt{
+    width: 35px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.lsq{
+    margin-top: 7px;
+    margin-left: -10px;
+}

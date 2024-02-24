@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.mainMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 15px;
+    padding-left: 260px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 245px;
+    max-width: 245px;
+    box-sizing: border-box;
+    transition: box-shadow 0.8s;
+    justify-content: center;
+}
+.main:hover{
+    box-shadow: 0px 0px 1px 1px rgb(149, 142, 142);
+}
+.middle{
+    background-color:white;
+}
+.cloths{
+    width: 100%;
+}
+.down{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    line-height: 18px;
+}
+.down a{
+    text-decoration: none;
+    color: #108ee9;
+    width: 10px;
+    background-color: transparent;
+}
+#dele{
+    color:#9e9e9e;
+    font-size: 10px;
+}
+.discount_roe{
+    position: relative;
+    flex-shrink: 0;
+}
+.discount_roe .free_tag{
+    position: absolute;
+    top: 1px;
+    right: 135px;
+}
+.free{
+    width: 19px;
+}
+.last_row{
+    display: flex;
+    justify-content: space-between;
+}
+.price_tag{
+    color: red;
+}
+.side__{
+    color:#9e9e9e;
+}
+.star{
+    width: 10px;
+}
+.star_batch{
+    display: flex
+}
+#rating_numb{
+    color:#9e9e9e;
+    box-shadow: -8px 1px 3px rgb(255, 254, 254);
+    border-radius: 20px;
+}

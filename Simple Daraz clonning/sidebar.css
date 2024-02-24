@@ -1,0 +1,36 @@
+*{
+    text-decoration: none;
+}
+.sidebar{
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left: 80px;
+    padding-top: 100px;
+   
+}
+.firstsection{
+    background-color:white;
+    line-height: 25px;
+    border-bottom:2px solid rgb(218, 206, 206);
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.secondsection{
+    background-color:white;
+    line-height: 25px;
+    border-bottom:2px solid rgb(218, 206, 206);
+    padding: 5px;
+    padding-top: 15px;
+}
+.thirdsection{
+    background-color:white;
+    line-height: 25px;
+    border-bottom:2px solid rgb(218, 206, 206);
+    padding: 5px;
+    padding-top: 15px;
+}

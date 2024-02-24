@@ -1,0 +1,102 @@
+.Head_God{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    padding-left: 270px;
+    font-family: 'Roboto', sans-serif;
+}
+.topic{
+    background-color: white;
+    flex: 1;
+
+}
+#first{
+    font-size: 20px;
+    color: black;
+}
+#light{
+    line-height: 50px;
+    color: rgb(112, 107, 107);
+}
+.search{
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+}
+.fnt{
+    min-width: 700px;
+}
+
+.lnt{
+    display: flex;
+    justify-content: end;
+    margin-right: 90px;
+    margin-top: 17px;
+    min-width: 300px;
+}
+#sort{
+    font-size: 13px;
+    color: #9e9e9e;
+    font-weight: 8;
+    margin-right: 5px;
+    position: relative;
+}
+.inp{
+    border: 1px solid #9e9e9e;
+    padding: 10px 10px 10px 10px;
+    margin-top: -10px;
+}
+#ew{
+    color: #9e9e9e;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.view{
+    display: flex;
+    margin-top: 5px;
+}
+.mico{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+    row-gap: -10px;
+}
+.a , .b , .c , .d{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+label{
+    color:#9e9e9e;
+}
+p{
+    color:#9e9e9e;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+p:hover{
+    color:orangered
+}
+select{
+    padding: 5px;
+    width: 150px;
+    border-color:#9e9e9e;
+}
+.hy{
+    color: black;
+    font-weight: 550;
+    font-size: 13px;
+}
+.blue{
+    color:slateblue;
+}
+.ch{
+    border: 2px solid blue;
+}
+.in_type select{
+    background-color: transparent;
+    border: transparent;
+    color: rgb(181, 169, 169);
+}

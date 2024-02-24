@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    
+}
+body{
+    background-color:#f0f2f5;;
+}
+
+.newAccount{
+    width: 400px;
+    color: black;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.xpp{
+    display: flex;
+}
+
+
+.fst{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 10px 0px 10px;
+    border-bottom: 1px solid rgb(220, 213, 213);
+    
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.sign h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sign p{
+    color: rgb(184, 182, 182);
+    font-weight: 100;
+    font-size: 15px;
+}
+#xbut{
+    width: 20px;
+    padding: 5px ;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+}
+
+.scnd{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.nameTop{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.nameTop .in{
+    width: 165px;
+    padding: 10px;
+}
+
+.name .yes{
+    width: 350px;
+    padding: 10px;
+}
+
+.date p{
+    font-size: 15px;
+    color: rgb(99, 96, 96);
+    font-weight: 10;
+    padding-left: 25px;
+}
+
+.manD{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.manD #dte{
+    width: 100px;
+    padding: 10px;
+    border-color: rgb(197, 190, 190);
+    font-weight: 600;
+}
+
+.gend p{
+    font-size: 15px;
+    color: rgb(99, 96, 96);
+    font-weight: 10;
+    padding-left: 25px;
+}
+
+.check{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.check .ft{
+    border: 1px solid rgb(178, 176, 176);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    font-weight: 550;
+}
+
+.parag{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.parag p{
+    font-size: 12px;
+    font-weight: 600;
+    width: 350px;
+    color: rgb(129, 127, 127);
+}
+
+.btn_two {
+    width: 180px;
+    font-size: 14px;
+    background-color: rgb(14, 191, 14);
+    text-align: center;
+    margin-bottom: 10px; 
+    cursor: pointer;
+ }
+
+.butm{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.butm button{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: green;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 150px;
+    column-gap: 15px;
+    margin-left: 150px;
+    margin-right: 100px
+}
+.first{
+    background-color:white;
+    padding-top: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(227, 212, 212);
+    box-shadow: 5px 5px 6px -7px ;
+    position: relative;
+}
+.f-container .img_but{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+@media (max-width:850px) {
+    .main{
+        grid-template-columns: 1fr;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 5px;
+        row-gap: 27px; 
+    }
+    .first{
+        margin-left: 60px;
+    }
+    .f-container .img_but{
+       left: -15px;
+    }
+}
+.f-container{
+    align-items: center;
+    position: relative;
+    left: 80px;
+
+}
+#just{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 490;
+}
+.f-container .img_top{
+    background-color:#f0f2f5;
+}
+.f-container .img_top .imgg{
+    width: 325px;
+}
+input[type = 'text'], input[type = 'password']{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(215, 210, 210);
+    width: 250px;
+    padding: 15px 30px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: start;
+    color: black;
+    font-family: 'Segoe UI';
+    font: 15px;
+}
+input[type = 'text'], input[type = 'password']::placeholder{
+    font-size: 15px;
+    align-content: start;
+}
+button{
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.8s;
+}
+
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: blue;
+    padding-left: 80px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+
+}
+.first .sub-link{
+    position: absolute;
+    right: 70px;
+    top: 240px;
+}
+
+.line{
+    border-top: 1px solid black;
+    opacity: 0.2;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+.sub-link h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family:'Segoe UI';
+    padding-left: 950px;
+    padding-top: 130px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub-link h3 a{
+    color: rgba(0, 0, 0, 0.859);
+    font-weight:bold;
+    font-size: 13px;
+}
+.sub-link h3 a:hover,.f-pws:hover{
+    text-decoration: underline;
+}
+
+p{
+   font-size: 20px;
+   font-weight: 600;
+   word-spacing: 3px;
+
+}
+

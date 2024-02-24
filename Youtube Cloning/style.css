@@ -1,0 +1,181 @@
+
+*{
+   margin:0;
+   padding: 0;
+
+}
+body{
+   
+    background-color:rgb(255, 255, 255);
+}
+.mainMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 18px;
+    padding-top:35px;
+    padding-left: 96px;
+    padding-right: 20px;
+}
+
+.top{
+    width: 100%;
+    position: relative;
+}
+
+.buttom{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 10px;
+}
+
+
+.gojo{
+    width: 100%;
+    border-radius: 13px;
+    transition: border-radius 0.5s;
+}
+.gojo:hover{
+    border-radius: 0;
+}
+
+.icongojo{
+    border-radius: 45px;
+    width: 90%;
+    margin-top: 8px;
+}
+
+.Titletext{
+    line-height: 15px;
+    color: rgb(106, 102, 102);
+    margin-top: 8px;
+}
+.desc{
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.timer{
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 5px;
+    bottom:10px;    
+}
+.views_count{
+    line-height: 15px;
+    color: rgb(106, 102, 102);
+    margin-top: 5px;
+}
+
+
+.non{
+    display: none;
+}
+
+
+
+.yt_short{
+    width: 110px;
+}
+
+
+
+.shorts{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 220px;
+}
+
+.dek{
+    width: 100%;
+    aspect-ratio: 3/5;
+    border-radius: 10px;
+}
+
+.dwm{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.dott{
+    line-height: 5px;
+    font-weight: 600;
+    color: rgb(52, 51, 51);
+    visibility: hidden;
+}
+
+.extra{
+    width: 160px;
+    font-weight: 520;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 45px;
+    overflow:hidden;
+}
+
+.endGame{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(106, 102, 102);
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+
+.mainDown{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 96px;
+}
+.dwm:hover .dott{
+    visibility: visible;
+}
+
+
+.sho{
+    padding-top: 30px;
+    margin-left: 96px;
+}
+
+
+.x:hover{
+    background-color: rgb(217, 214, 214);
+}
+
+
+
+@media (max-width:850px){
+    .mainMain{
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }  
+    .side_bar{
+       display: none;   
+    }  
+    body{
+        padding-left: 25px;
+    }
+    .but_header{
+        
+        margin-left: -90px;
+        padding-bottom: 20px;
+    }
+    .xm{
+        display: none;
+    }
+    .mainDown{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        margin-left: 0;
+    }
+    .sho{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1000px){
+    .mainMain{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
